@@ -1,0 +1,76 @@
+
+
+#banana-cover {
+    display: block;
+    width: 50%;
+    max-width: 600px;
+    margin: 35px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(192, 46, 2, 0.4);
+}
+
+body {
+    font-family: Helvetica;
+    background-color: #681409;
+    margin: 5;
+    padding: 5;
+    line-height: 2;
+}
+
+a{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: underline;
+    border: 3px solid #0a0101;
+    border-radius: 8px;
+    transition: 0.5s ease;
+}
+
+a:hover {
+    background-color: #ec5353;
+    color: #121212;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4em;
+    margin-top: 45px;
+    color: #c27e3f;
+}
+
+h2 {
+    text-align: center;
+    color: #ca8544;
+}
+
+section {
+    width: 85%;
+    max-width: 800px;
+    margin: 45px auto;
+    padding: 25px;
+    background: #850000;
+    border-radius: 15px;
+    box-shadow: 0 3 10px rgba(255, 255, 255, 0.1);
+}
+
+ul {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+li:hover{
+    background: #c73535;
+}
+
+li p{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #c9a710;
+}
+
+audio {
+    width: 100%;
+    outline:none; 
+}
