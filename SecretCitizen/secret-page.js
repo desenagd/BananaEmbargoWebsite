@@ -1,18 +1,16 @@
 const songList = document.getElementById("secret-songs");
 
 const songArray = [
-    "../MusicFiles/Sec/All_Mine.m4a",
-    "../MusicFiles/Zoid/Hell_Bound.m4a",
-    "../MusicFiles/Zoid/Hypervigilant.m4a",
-    "../MusicFiles/Zoid/Ill_Will.m4a",
-    "../MusicFiles/Zoid/Locomotor_System.m4a",
-    "../MusicFiles/Zoid/Mahershalas_Law.m4a",
-    "../MusicFiles/Zoid/Me_and_You.m4a",
-    "../MusicFiles/Zoid/On_The_Scene.m4a",
-    "../MusicFiles/Zoid/Time_Off.m4a",
-    "../MusicFiles/Zoid/To_Die_For.m4a"
-];
-
+    "../MusicFiles/Sec/Lost_An_Hour.m4a",
+    "../MusicFiles/Sec/Dedwave.m4a",
+    "../MusicFiles/Sec/Drive_You_Up_A_Wall.m4a",
+    "../MusicFiles/Sec/Real_Estate.m4a",
+    "../MusicFiles/Sec/Ruin_My_Life.m4a",
+    "../MusicFiles/Sec/Whats_The_Answer.m4a",
+    "../MusicFiles/Sec/While_Im_Still_Awake.m4a",
+    "../MusicFiles/Sec/Heavy_Head.m4a",
+    "../MusicFiles/Sec/I_Want_More.m4a" 
+]
 songArray.forEach(songPath => {
     const li = document.createElement("li");
 

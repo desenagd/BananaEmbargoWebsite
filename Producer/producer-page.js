@@ -2,8 +2,9 @@ const songList = document.getElementById("zoidy-songs");
 
 const songArray = [
     "../MusicFiles/Zoid/All_Mine.m4a",
+    "../MusicFiles/Zoid/Heaven_Sent.m4a",
     "../MusicFiles/Zoid/Hell_Bound.m4a",
-    "../MusicFiles/Zoid/Hypervigilant.m4a",
+    "../MusicFiles/Zoid/To_Die_For.m4a",
     "../MusicFiles/Zoid/Ill_Will.m4a",
     "../MusicFiles/Zoid/Locomotor_System.m4a",
     "../MusicFiles/Zoid/Mahershalas_Law.m4a",
