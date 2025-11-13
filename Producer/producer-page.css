@@ -12,6 +12,7 @@
 body {
     font-family: Helvetica;
     background-color: #16161a;
+    background: linear-gradient(120deg, #127a88ff, #a3681aff);
     margin: 5;
     padding: 5;
     line-height: 2;
@@ -50,8 +51,9 @@ section {
     margin: 45px auto;
     padding: 25px;
     background: #1e1e1e;
+    background: linear-gradient(120deg, #a3681aff, #127a88ff);
     border-radius: 15px;
-    box-shadow: 0 3 10px rgba(255, 255, 255, 0.1);
+    box-shadow: 0 3 10px rgba(0, 0, 0, 0.1);
 }
 
 ul {
